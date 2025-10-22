@@ -24,7 +24,7 @@ Baixar o arquivo classTrib.json diretamente da API oficial do Governo do Rio Gra
 ### 1. Clone ou baixe o repositório
 ```bash
 1. Clone ou baixe este repositório
-git clone https://github.com/seu-usuario/APIclassTrib.git
+git clone https://github.com/DaavidSiilva/APIclassTrib.git
 cd APIclassTrib
 ```
 
