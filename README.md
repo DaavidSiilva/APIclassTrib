@@ -1,4 +1,4 @@
-# APIclassTrib
+# API classTrib - Portal da Conformidade Fácil
 
 Este projeto acessa a API de Classificação Tributária do Portal da Conformidade Fiscal do RS, utilizando um certificado digital A1 (formato .pfx) para autenticação em requisições HTTPS.
 
