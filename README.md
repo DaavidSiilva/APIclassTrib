@@ -36,5 +36,43 @@ Ative o ambiente:
 ```bash
 venv\Scripts\activate
 ```
+---
+
+### 3. Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+## ⚙️ Configuração
+
+1. Coloque seu certificado A1 (.pfx) na pasta Certificado/ com o nome Certificado.pfx
+(ou ajuste o caminho no código conforme necessário).
+
+2. Atualize a senha do certificado no arquivo principal (main.py ou onde estiver o if __name__ == "__main__"):
+```bash
+senha_certificado = "sua_senha_aqui"
+```
+
+## ▶️ Execução
+
+Com o ambiente ativado e dependências instaladas, execute:
+```bash
+python main.py
+``
+ 
+ O script fará uma requisição à API:
+```bash
+https://cff.svrs.rs.gov.br/api/v1/consultas/classTrib
+``
+E salvará a resposta em um arquivo chamado classTrib.json no diretório atual.
+
+---
+ 
+## 🔒 Segurança
+
+
+ 
+
 
 
