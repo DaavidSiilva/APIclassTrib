@@ -8,3 +8,4 @@ pycparser==2.23
 requests==2.32.5
 signxml==4.2.0
 urllib3==2.5.0
+requests==2.32.5
