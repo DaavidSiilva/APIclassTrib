@@ -1,31 +1,25 @@
-# 🔐 Certificado A1 — Requisições HTTPS Autenticadas com .PFX
+# APIclassTrib
 
-Este projeto permite **fazer requisições HTTPS autenticadas** usando um **certificado digital A1 (.pfx)**, como os utilizados por empresas para comunicação segura com APIs governamentais (por exemplo, SEFAZ e CFF).
-
-Ele extrai a chave privada e o certificado público do arquivo `.pfx`, cria **arquivos temporários .pem** e os usa para autenticar uma requisição HTTPS via biblioteca `requests`.
+Este projeto acessa a API de Classificação Tributária do Portal da Conformidade Fiscal do RS, utilizando um certificado digital A1 (formato .pfx) para autenticação em requisições HTTPS.
 
 ---
 
-## 🚀 Funcionalidades
+## 📌 Objetivo
 
-- Carrega e separa o certificado `.pfx` em **chave privada** e **certificado público**.
-- Gera **arquivos temporários** no formato PEM compatíveis com `requests`.
-- Faz **requisições HTTPS autenticadas** com esses certificados.
-- Remove os arquivos temporários ao final (segurança).
-- Salva a resposta em um arquivo `classTrib.json`.
+Baixar o arquivo classTrib.json diretamente da API oficial do Governo do Rio Grande do Sul, autenticando-se com um certificado A1 válido.
 
 ---
 
-## 📦 Requisitos
+## 🛠️ Requisitos
 
-- Python **3.8+**
-- Módulos:
-  - `requests`
-  - `cryptography`
+- Python 3.8 ou superior
+- Certificado digital A1 no formato .pfx
+- Senha do certificado
+- Acesso à internet   
 
 ---
 
-## ⚙️ Instalação e Configuração
+## 📦 Instalação
 
 ### 1. Clone o repositório
 ```bash
