@@ -59,7 +59,7 @@ senha_certificado = "sua_senha_aqui"
 Com o ambiente ativado e dependências instaladas, execute:
 ```bash
 python main.py
-``
+```
  
  O script fará uma requisição à API:
 ```bash
