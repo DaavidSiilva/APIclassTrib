@@ -21,7 +21,20 @@ Baixar o arquivo classTrib.json diretamente da API oficial do Governo do Rio Gra
 
 ## 📦 Instalação
 
-### 1. Clone o repositório
+### 1. Clone ou baixe o repositório
 ```bash
-git clone https://github.com/seu-usuario/certificado-a1.git
-cd certificado-a1
+1. Clone ou baixe este repositório
+git clone https://github.com/seu-usuario/APIclassTrib.git
+cd APIclassTrib
+```
+
+### 2. Crie um ambiente virtual (recomendado)
+```bash
+python -m venv venv
+```
+Ative o ambiente:
+```bash
+venv\Scripts\activate
+```
+
+
