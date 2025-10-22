@@ -10,7 +10,7 @@ Baixar o arquivo classTrib.json diretamente da API oficial do Governo do Rio Gra
 
 ---
 
-## 🛠️ Requisitos
+## Requisitos
 
 - Python 3.8 ou superior
 - Certificado digital A1 no formato .pfx
